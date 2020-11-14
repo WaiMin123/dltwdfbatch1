@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Array Js</title>
+	</head>
+	<body>
+		<p>Hello</p>
+	</body>
+	<script type="text/javascript">
+
+	// Manual Array
+	let j= new Array("aung aung","maung maung","kyaw kyaw");
+	console.log(j);
+
+	let k=Array("su su","nu nu","mya mya");
+	console.log(k);
+
+	let l=[1200,1300,1500,1700];
+	console.log(l);
+	console.log(l[3]);
+
+
+	// String is Character Array in JS
+	let aung= "aung ko ko";
+	console.log(aung[5]);
+
+
+	// Outside array
+	// let m = new Array();
+	let m=[];
+	m[0] = "red";
+	m[1] = "green";
+	m[2] = "black";
+	m[3] = "orange";
+	m[4] = "blue";
+	console.log(m);
+	// console.log(m[2]);
+
+	// Default Function for array
+	console.log("array to string = "+ m.toString());
+	console.log("array to string by speical char = " + m.join("*"));
+	console.log("array value count = " + m.length);
+
+	// Adding array data by behind
+	m.push("gold");
+	m.push("gray");
+	console.log(m);
+
+	//Delete array by behind
+	m.pop();
+	console.log(m);
+
+
+	</script>
+</html>
